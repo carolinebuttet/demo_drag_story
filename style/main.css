@@ -1,0 +1,61 @@
+body, html {
+  width:100%;
+  height:100%;
+  margin:0;
+  padding:0;
+}
+
+body{
+  background:lightgray;
+  font-family: sans-serif;
+  display:flex;
+  flex-direction: column;
+}
+
+.z-99 {
+  z-index:99;
+}
+
+.instructions{
+  position:absolute;
+  top:0;
+  right:0;
+  padding:12px;
+}
+
+.wrapper{
+  position:relative;
+  width:100%;
+  height:100%;
+  background-image:url('./../images/ppl-empty-noise.jpg');
+}
+
+.drag{
+  width:400px;
+  height:400px;
+  border:1px solid black;
+  position:absolute;
+  cursor: grab;
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+#drag1{
+  background:lightblue;
+  background-image: url('./../images/ppl-ppl.jpg');
+  background-position:0 0;
+}
+
+#drag2{
+  background:lightcyan;
+  background-image: url('./../images/forest01.jpg');
+  top:50px;
+  left:50px;
+}
+
+#drag3{
+  background:lightcoral;
+    background-image: url('./../images/water.jpg');
+
+  top:100px;
+  left:100px;
+}
