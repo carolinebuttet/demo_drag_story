@@ -1,5 +1,5 @@
 # Drag Story Demo
-A demo based on the book [Here](https://www.richard-mcguire.com/new-page-4) by Richard McGuire.
+A website with draggable divs to reveal an image. Based on the book [Here](https://www.richard-mcguire.com/new-page-4) by Richard McGuire.
 
 ![Demo preview](./demo.gif)
 
